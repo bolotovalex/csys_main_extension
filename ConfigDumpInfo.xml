@@ -133,7 +133,7 @@
 			<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Attribute.ВыбранныйГод" id="db2ac504-93ed-4e3d-816a-b43ad60d83e9"/>
 		</Metadata>
 		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Form.Форма" id="a1840b5c-6a87-45b3-8c97-fcf3ef4e422b" configVersion="a4024c7b53b3728ef052e56c0bf5b6ac51c886b6"/>
-		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Form.Форма.Form" id="a1840b5c-6a87-45b3-8c97-fcf3ef4e422b.0" configVersion="544af6d57ed34a41023fad0774f572782f4e3428"/>
+		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Form.Форма.Form" id="a1840b5c-6a87-45b3-8c97-fcf3ef4e422b.0" configVersion="bd9963fd6c9907f09e666bfa30bbecba95f35336"/>
 		<Metadata name="DataProcessor.csys1_Отладка" id="26e5d134-e568-453f-b431-82b75a73e56e" configVersion="276efb13e350b1984cb87ca0e697d32b4ff651f0"/>
 		<Metadata name="DataProcessor.csys1_Отладка.Form.Форма" id="f3ee9f1f-6dc1-441d-83ff-b5747052db72" configVersion="7eb9fc94f831da6ff5a9304533dabbece226ad2d"/>
 		<Metadata name="DataProcessor.csys1_Отладка.Form.Форма.Form" id="f3ee9f1f-6dc1-441d-83ff-b5747052db72.0" configVersion="bd67b06e3e595080284cb3caf2a8dea2f5238c37"/>

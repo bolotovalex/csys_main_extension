@@ -64,6 +64,7 @@
 					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="39"/>
 					<Events>
 						<Event name="OnChange">СотрудникПриИзменении</Event>
+						<Event name="StartChoice">СотрудникНачалоВыбора</Event>
 					</Events>
 				</InputField>
 			</ChildItems>
@@ -225,6 +226,7 @@
 					<v8:content>Закрыть</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>КомандаЗакрыть</Action>
 		</Command>
 		<Command name="ГодНазад" id="3">
 			<Title>
