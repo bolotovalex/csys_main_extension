@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="5">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="6"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="7"/>
+		</InputField>
+		<InputField name="Контрагент" id="9">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="Подразделение" id="25">
+			<DataPath>Объект.Подразделение</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Организация" id="17">
+			<DataPath>Объект.Организация</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="19"/>
+		</InputField>
+		<InputField name="Комментарий" id="21">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<Table name="Номенклатура" id="29">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Номенклатура</DataPath>
+			<ShowCommandBar>auto</ShowCommandBar>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НоменклатураКонтекстноеМеню" id="30"/>
+			<AutoCommandBar name="НоменклатураКоманднаяПанель" id="31">
+				<ChildItems>
+					<Button name="ИмпортИзТабличногоДокумента" id="116">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ИмпортИзВнешнегоИсточника</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Импорт из табличного документа</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ИмпортИзТабличногоДокументаРасширеннаяПодсказка" id="117"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="32"/>
+			<SearchStringAddition name="НоменклатураСтрокаПоиска" id="33">
+				<AdditionSource>
+					<Item>Номенклатура</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураСтрокаПоискаКонтекстноеМеню" id="34"/>
+				<ExtendedTooltip name="НоменклатураСтрокаПоискаРасширеннаяПодсказка" id="35"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НоменклатураСостояниеПросмотра" id="36">
+				<AdditionSource>
+					<Item>Номенклатура</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураСостояниеПросмотраКонтекстноеМеню" id="37"/>
+				<ExtendedTooltip name="НоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="38"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НоменклатураУправлениеПоиском" id="39">
+				<AdditionSource>
+					<Item>Номенклатура</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НоменклатураУправлениеПоискомКонтекстноеМеню" id="40"/>
+				<ExtendedTooltip name="НоменклатураУправлениеПоискомРасширеннаяПодсказка" id="41"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="НоменклатураНомерСтроки" id="50">
+					<DataPath>Объект.Номенклатура.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураНомерСтрокиКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="НоменклатураНомерСтрокиРасширеннаяПодсказка" id="52"/>
+				</LabelField>
+				<InputField name="НоменклатураНаименование" id="54">
+					<DataPath>Объект.Номенклатура.Наименование</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураНаименованиеКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="НоменклатураНаименованиеРасширеннаяПодсказка" id="56"/>
+				</InputField>
+				<InputField name="НоменклатураКоличество" id="62">
+					<DataPath>Объект.Номенклатура.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураКоличествоКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="НоменклатураКоличествоРасширеннаяПодсказка" id="64"/>
+				</InputField>
+				<InputField name="НоменклатураИнвентарныйНомер" id="58">
+					<DataPath>Объект.Номенклатура.ИнвентарныйНомер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураИнвентарныйНомерКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="НоменклатураИнвентарныйНомерРасширеннаяПодсказка" id="60"/>
+				</InputField>
+				<InputField name="НоменклатураСерийныйНомер" id="86">
+					<DataPath>Объект.Номенклатура.СерийныйНомер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураСерийныйНомерКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="НоменклатураСерийныйНомерРасширеннаяПодсказка" id="88"/>
+				</InputField>
+				<InputField name="НоменклатураПроцентИзноса" id="70">
+					<DataPath>Объект.Номенклатура.ПроцентИзноса</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураПроцентИзносаКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="НоменклатураПроцентИзносаРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="НоменклатураГодВыпуска" id="74">
+					<DataPath>Объект.Номенклатура.ГодВыпуска</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураГодВыпускаКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="НоменклатураГодВыпускаРасширеннаяПодсказка" id="76"/>
+				</InputField>
+				<InputField name="НоменклатураНеисправность" id="78">
+					<DataPath>Объект.Номенклатура.Неисправность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураНеисправностьКонтекстноеМеню" id="79"/>
+					<ExtendedTooltip name="НоменклатураНеисправностьРасширеннаяПодсказка" id="80"/>
+				</InputField>
+				<InputField name="НоменклатураРезультатОсмотра" id="82">
+					<DataPath>Объект.Номенклатура.РезультатОсмотра</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураРезультатОсмотраКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="НоменклатураРезультатОсмотраРасширеннаяПодсказка" id="84"/>
+				</InputField>
+				<InputField name="НоменклатураБалансоваяСтоимость" id="66">
+					<DataPath>Объект.Номенклатура.БалансоваяСтоимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураБалансоваяСтоимостьКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="НоменклатураБалансоваяСтоимостьРасширеннаяПодсказка" id="68"/>
+				</InputField>
+				<InputField name="НоменклатураРыночнаяСтоимость" id="90">
+					<DataPath>Объект.Номенклатура.РыночнаяСтоимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураРыночнаяСтоимостьКонтекстноеМеню" id="91"/>
+					<ExtendedTooltip name="НоменклатураРыночнаяСтоимостьРасширеннаяПодсказка" id="92"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Автор" id="13">
+			<DataPath>Объект.Автор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="АвторКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="15"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.csys1_Утилизация</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ИмпортИзВнешнегоИсточника" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт из внешнего источника</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Импорт из внешнего источника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИмпортИзТабличногоДокумента</Action>
+		</Command>
+	</Commands>
+</Form>

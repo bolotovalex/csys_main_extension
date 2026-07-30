@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="7e0a7f29-e4fc-4b64-9382-f6d1e21c4d4d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НоменклатураПоставщиков" category="Object">
+				<xr:TypeId>425d1fb2-7a16-480b-8073-2dc9315d7046</xr:TypeId>
+				<xr:ValueId>cc949b39-580a-48cc-a5bd-440fd9d90c76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НоменклатураПоставщиков" category="Ref">
+				<xr:TypeId>8cb0673c-42b5-4b76-b695-04eba6d41100</xr:TypeId>
+				<xr:ValueId>a9ff1837-12d3-41b3-91b6-c4dfb2f7a74c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НоменклатураПоставщиков" category="Selection">
+				<xr:TypeId>e53210de-a59e-4210-a89f-795e8aecc2c0</xr:TypeId>
+				<xr:ValueId>8731b2ae-1611-44f4-95e0-78a7d6625100</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НоменклатураПоставщиков" category="List">
+				<xr:TypeId>9b2754bf-8c0f-4b3a-bce6-cc111b78c408</xr:TypeId>
+				<xr:ValueId>a6bebb48-1ea0-4222-9546-f7a152880c2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НоменклатураПоставщиков" category="Manager">
+				<xr:TypeId>c26efd9e-2a8d-40dc-8fc7-715e970b105c</xr:TypeId>
+				<xr:ValueId>aa0e5266-0fb6-46b4-9891-1d6fa585df0e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НоменклатураПоставщиков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>da04845f-b2f9-40aa-af2f-a93ff969f234</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

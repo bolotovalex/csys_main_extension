@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="72123eac-9e67-44e3-a899-723670fc15d7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
+				<xr:TypeId>5f8364d5-0ee1-42d2-9ce1-f1c151ca7816</xr:TypeId>
+				<xr:ValueId>1a90db0b-1283-4f58-a333-71b05b5cbdcb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
+				<xr:TypeId>aae1c13d-922c-4af6-b251-b839ac0efebd</xr:TypeId>
+				<xr:ValueId>89b9806d-255f-4785-a8e4-7c5d6005a672</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
+				<xr:TypeId>0ea00b95-0971-4d37-aac2-4aa30ebad4a1</xr:TypeId>
+				<xr:ValueId>b21144c9-66d9-4fbd-9e11-9afb9b625b9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Организации" category="List">
+				<xr:TypeId>9334caa9-c645-4329-b1cf-53b1391997dd</xr:TypeId>
+				<xr:ValueId>d3d650e4-0a60-4f0f-9c86-60c6423f7dfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
+				<xr:TypeId>5aed4278-3523-49df-8352-9b8aef73775a</xr:TypeId>
+				<xr:ValueId>8b6b5e54-4b2a-49d9-a302-67c385a269cc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Организации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6a3c1b05-ee48-4aa9-b2c1-4b66e3aeab70</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2bd7e0a1-5091-4815-9145-96b7548cd8dc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФайлЛоготип</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d52d829b-1fa0-4917-9732-84cdeba76607</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОрганизацииПрисоединенныеФайлы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

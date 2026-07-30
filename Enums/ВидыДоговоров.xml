@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="d2ed2a2d-968f-4666-9c83-0c262d2f2a34">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДоговоров" category="Ref">
+				<xr:TypeId>c2eb062f-1903-40c4-bae5-7c6f13425af3</xr:TypeId>
+				<xr:ValueId>b3847f1d-d950-496a-bcc3-f9c6fdd2fbe9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДоговоров" category="Manager">
+				<xr:TypeId>4767267a-21d9-4795-9e9b-3ca39e3ed520</xr:TypeId>
+				<xr:ValueId>3b9ce2b4-a9cd-469f-9998-1ed2a7b29746</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДоговоров" category="List">
+				<xr:TypeId>1c14c15c-c459-489c-b5a5-dc9c77203748</xr:TypeId>
+				<xr:ValueId>07619ad5-7bcc-4860-8d7f-e9ab48fde055</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыДоговоров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>35ac575d-3333-428d-bb00-ae2dd603b676</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="2ce618c5-c7a8-4425-b624-434099278be9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СКомиссионером</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7cb6469b-2535-4307-9bd2-2e3739116c0b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

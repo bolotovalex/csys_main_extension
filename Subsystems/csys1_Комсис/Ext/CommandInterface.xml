@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<CommandsVisibility>
+		<Command name="Document.csys1_Письма.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.csys1_ТекстыПисем.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.csys1_Инструмент.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.csys1_ТипыТехДокументации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.csys1_ТехДокументация.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Document.csys1_Утилизация.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.csys1_УтилизацияНеисправность.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.csys1_УтилизацияРезультатОсмотра.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.csys1_Письма.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.csys1_ТекстыПисем.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.csys1_Инструмент.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.csys1_ТипыТехДокументации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.csys1_ТехДокументация.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.csys1_Утилизация.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.csys1_УтилизацияНеисправность.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Catalog.csys1_УтилизацияРезультатОсмотра.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="InformationRegister.csys1_ОбластиДействияСертификатовНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_СертификатыНоменклатурыПрисоединенныеФайлы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_СертификатыНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_УчетныеДанные.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.csys1_Письма.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_ТекстыПисем.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_Инструмент.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+		</Command>
+		<Command name="Catalog.Сотрудники.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_Письма</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_ТипыТехДокументации.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+		</Command>
+		<Command name="Document.csys1_ТехДокументация.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+		</Command>
+		<Command name="Document.csys1_Утилизация.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_УтилизацияНеисправность.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+		</Command>
+		<Command name="Catalog.csys1_УтилизацияРезультатОсмотра.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.csys1_ТехническаяДокументация</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>CommandGroup.csys1_Письма</Group>
+		<Group>CommandGroup.csys1_ТехническаяДокументация</Group>
+	</GroupsOrder>
+</CommandInterface>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="744a795a-74cd-440c-a068-6e3e109a373e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходныйОрдер" category="Object">
+				<xr:TypeId>fb9f9397-a1d9-41b5-8204-f968da4d1fd9</xr:TypeId>
+				<xr:ValueId>3c695a5f-0fed-4f3b-9a40-217c03271ad8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходныйОрдер" category="Ref">
+				<xr:TypeId>f72c578d-935c-4ff1-9056-aa6a4a6b359d</xr:TypeId>
+				<xr:ValueId>2bec909b-4cd6-4da8-856c-dac12f996c95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходныйОрдер" category="Selection">
+				<xr:TypeId>22a003b5-bc5a-43ac-a1e2-89726a66da87</xr:TypeId>
+				<xr:ValueId>af98f3a7-5511-4515-a6e1-f1ea9983f356</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходныйОрдер" category="List">
+				<xr:TypeId>63b9d64e-70b9-42ac-8113-196181c65ffa</xr:TypeId>
+				<xr:ValueId>d877294c-941a-4e50-b238-798e689c2d6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходныйОрдер" category="Manager">
+				<xr:TypeId>4e738648-7749-4262-a896-148b0039b278</xr:TypeId>
+				<xr:ValueId>8e589476-78fb-4415-9aa2-3ea8bc1a32a2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасходныйОрдер</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0f99b489-31f7-498f-b839-afe70c5f7ea5</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

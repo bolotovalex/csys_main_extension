@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="62286e96-8604-45e3-b01c-bceb9d554e19">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СлужбыДоставки" category="Object">
+				<xr:TypeId>d9f030f8-bade-4a70-b24b-d1df2a8b944c</xr:TypeId>
+				<xr:ValueId>9630c0f4-c60f-4564-972d-52859d0359fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СлужбыДоставки" category="Ref">
+				<xr:TypeId>e759fc2f-5a90-4b9f-a4e0-e8c6fb00aa37</xr:TypeId>
+				<xr:ValueId>640a4630-e511-4ff2-9b38-f59bbf30f053</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СлужбыДоставки" category="Selection">
+				<xr:TypeId>9ee2d7b3-03dc-4137-9f65-4209e68d39a5</xr:TypeId>
+				<xr:ValueId>1ab09f24-fe97-4ed4-be9b-8588627703d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СлужбыДоставки" category="List">
+				<xr:TypeId>9d8c9aa7-909b-4b67-ae90-26f37f56e6a1</xr:TypeId>
+				<xr:ValueId>171ee315-3e6d-4bc7-b640-5823693ad3b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СлужбыДоставки" category="Manager">
+				<xr:TypeId>a39e12af-4113-4676-8d34-bddd6036eac5</xr:TypeId>
+				<xr:ValueId>14be0b32-68d5-4a14-8767-f0ceac84f98c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СлужбыДоставки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7e46ff2d-480e-4be6-bdca-f780bb4123f0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

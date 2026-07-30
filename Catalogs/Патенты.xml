@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="a58d2346-8748-420f-b558-387f46e8f75f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Патенты" category="Object">
+				<xr:TypeId>cfaf75d6-753d-4f24-9534-75087a0c231a</xr:TypeId>
+				<xr:ValueId>02deae9a-cc45-4d18-8caa-1fc4f5479c44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Патенты" category="Ref">
+				<xr:TypeId>a7723aa4-27d0-4172-9b89-734807f728bb</xr:TypeId>
+				<xr:ValueId>efde6975-584d-47eb-9b9f-5a9efc3b2012</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Патенты" category="Selection">
+				<xr:TypeId>d0686811-98ed-4a5b-a153-4f925a524fde</xr:TypeId>
+				<xr:ValueId>cc247c20-98b8-43b9-9a49-bb44b597c984</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Патенты" category="List">
+				<xr:TypeId>89c72525-4258-4df0-be7a-8dc380aed8f4</xr:TypeId>
+				<xr:ValueId>7a9b3ee6-9740-441d-90fa-f9bd67a51e7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Патенты" category="Manager">
+				<xr:TypeId>6ea7d5da-6881-4511-8916-16e1f04a9751</xr:TypeId>
+				<xr:ValueId>85b5fabc-aae2-4d09-b6be-18d002e88576</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Патенты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>744a0b3f-afcc-4c8d-9380-83b6721c4056</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

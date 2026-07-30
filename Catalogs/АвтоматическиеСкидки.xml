@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="4ed7a9d5-a11e-48e8-a575-4777e8df3b76">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АвтоматическиеСкидки" category="Object">
+				<xr:TypeId>75bf7dd3-ba08-4fcc-a121-746cfd65c495</xr:TypeId>
+				<xr:ValueId>5fa1fc82-3189-437b-b892-afb5cb8590ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АвтоматическиеСкидки" category="Ref">
+				<xr:TypeId>7fcafe8b-3017-4b03-8fc7-316af58ee2ae</xr:TypeId>
+				<xr:ValueId>0035c4cb-d1e8-4bc2-870d-bee318abb177</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АвтоматическиеСкидки" category="Selection">
+				<xr:TypeId>1281fc9a-7a59-497d-b783-e07248dd7d0a</xr:TypeId>
+				<xr:ValueId>34d01895-a719-4a72-ad2f-ba4c31cee2c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АвтоматическиеСкидки" category="List">
+				<xr:TypeId>816782f4-fb7e-46a4-af80-00a28609c5bc</xr:TypeId>
+				<xr:ValueId>19ea8e51-6da4-44d7-907f-b3a074b007b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АвтоматическиеСкидки" category="Manager">
+				<xr:TypeId>c3c27046-8e74-4f45-8643-6152b15c9f74</xr:TypeId>
+				<xr:ValueId>281e04cd-abeb-46d1-88b7-4d7d5e66c4c0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АвтоматическиеСкидки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f0d422a3-3ee7-47d6-883c-247b0356aa34</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

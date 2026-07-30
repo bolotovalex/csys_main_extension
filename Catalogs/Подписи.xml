@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="6aa05a79-6772-4942-934d-54b7ca01a107">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Подписи" category="Object">
+				<xr:TypeId>fd0dd7a5-0fe9-4a2f-9870-211db76b751c</xr:TypeId>
+				<xr:ValueId>fa8c9416-33f5-4d1f-ba87-323ac9785f60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Подписи" category="Ref">
+				<xr:TypeId>bd8ea097-bb1b-48ba-bacc-fe8d46f027c0</xr:TypeId>
+				<xr:ValueId>7eb20eb1-0323-4f8e-bca8-dd39f54258d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Подписи" category="Selection">
+				<xr:TypeId>66abda2a-03f9-41c9-b768-41ffcb047503</xr:TypeId>
+				<xr:ValueId>42142f8c-fdb6-46ec-bd4c-8721a4610de4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Подписи" category="List">
+				<xr:TypeId>210f7c25-2739-4dad-8040-080294743a06</xr:TypeId>
+				<xr:ValueId>3e650f9e-a8c1-4bb9-84e4-bd29f8fb765d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Подписи" category="Manager">
+				<xr:TypeId>7fa259a6-69be-4a7c-bd30-7243df438a4d</xr:TypeId>
+				<xr:ValueId>5de4028f-bd57-4110-aeb0-94255f8e6670</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Подписи</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>789e41a0-7388-441a-a0ed-de329b8862fe</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

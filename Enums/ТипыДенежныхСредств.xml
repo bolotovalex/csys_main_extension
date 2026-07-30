@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="ebfb6f32-f927-4af8-b0ea-fa9eb7fc5643">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыДенежныхСредств" category="Ref">
+				<xr:TypeId>94566040-86e1-4fe8-a04b-8b4668d8cafa</xr:TypeId>
+				<xr:ValueId>10a36dde-1f79-406a-85a9-8f84bf5d8ad8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыДенежныхСредств" category="Manager">
+				<xr:TypeId>175e35cc-e549-434a-ba93-219182ebd5e8</xr:TypeId>
+				<xr:ValueId>4cc710ce-b205-4f54-b4fd-eba5d088f5a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыДенежныхСредств" category="List">
+				<xr:TypeId>8750ee8d-33e5-4057-884f-0ddc165061ac</xr:TypeId>
+				<xr:ValueId>589dc42c-0bc9-499b-8c35-d6ab4c5563b9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыДенежныхСредств</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f99ea38a-e7dd-4cf2-baef-9f45b84e14c5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="672efd68-a5c7-4367-be53-1eac4005d3b7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Наличные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b0b38bad-1d96-4998-b1c0-7fb6ccd93d16</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5955a641-25ff-48ce-819c-61039a2dab88">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Безналичные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af55f18c-5849-41ae-9408-25553d915add</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

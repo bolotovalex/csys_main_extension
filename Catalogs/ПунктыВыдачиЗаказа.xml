@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="6364c7dc-2587-4a69-929e-dd680f5fe94f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПунктыВыдачиЗаказа" category="Object">
+				<xr:TypeId>158f20e9-bc64-4ed5-a25f-81b3f871091b</xr:TypeId>
+				<xr:ValueId>9abdd8e3-bd62-4a47-a685-7df583d5984a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПунктыВыдачиЗаказа" category="Ref">
+				<xr:TypeId>d065074e-cef8-4b98-8542-8b174f3a1055</xr:TypeId>
+				<xr:ValueId>84a35d22-a5eb-4f07-8efc-ba05714d2b37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПунктыВыдачиЗаказа" category="Selection">
+				<xr:TypeId>65aed7bd-11c9-4fe9-bdb3-4b6f40f51b60</xr:TypeId>
+				<xr:ValueId>1d7c2a9f-9f61-4d22-a066-1bfefc107ed6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПунктыВыдачиЗаказа" category="List">
+				<xr:TypeId>fd1542e1-78a4-421d-a68b-4fde45dd2fe4</xr:TypeId>
+				<xr:ValueId>f7eaa478-a444-45e9-a0c0-4877e8e35893</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПунктыВыдачиЗаказа" category="Manager">
+				<xr:TypeId>11a7d0b6-71e1-48aa-a0cd-6fe756f11671</xr:TypeId>
+				<xr:ValueId>01178338-941b-46cc-8ff8-4da1f3fe3ce3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПунктыВыдачиЗаказа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>148b1787-6cef-4ebc-a95c-c4a34aa3f4b5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>
