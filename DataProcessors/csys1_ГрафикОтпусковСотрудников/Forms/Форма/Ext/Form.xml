@@ -6,156 +6,179 @@
 		<Event name="BeforeClose">ПередЗакрытием</Event>
 	</Events>
 	<ChildItems>
-		<UsualGroup name="ГруппаКнопок" id="52">
+		<UsualGroup name="ГруппаОкно" id="120">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кнопок</v8:content>
+					<v8:content>Группа окно</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа кнопок</v8:content>
+					<v8:content>Группа окно</v8:content>
 				</v8:item>
 			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<GroupVerticalAlign>Top</GroupVerticalAlign>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="53"/>
+			<ExtendedTooltip name="ГруппаОкноРасширеннаяПодсказка" id="121"/>
 			<ChildItems>
-				<Button name="КнопкаСохранить" id="45">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.Сохранить</CommandName>
-					<ExtendedTooltip name="КнопкаСохранитьРасширеннаяПодсказка" id="46"/>
-				</Button>
-				<Button name="КнопкаЗакрыть" id="47">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.Закрыть</CommandName>
-					<ExtendedTooltip name="КнопкаЗакрытьРасширеннаяПодсказка" id="48"/>
-				</Button>
-				<InputField name="КоличествоВыбранныхДат" id="100">
-					<DataPath>КоличествоВыбранныхДат</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="КоличествоВыбранныхДатКонтекстноеМеню" id="101"/>
-					<ExtendedTooltip name="КоличествоВыбранныхДатРасширеннаяПодсказка" id="102"/>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаСотрудник" id="63">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа сотрудник</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа сотрудник</v8:content>
-				</v8:item>
-			</ToolTip>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаСотрудникРасширеннаяПодсказка" id="64"/>
-			<ChildItems>
-				<InputField name="Сотрудник" id="37">
-					<DataPath>Объект.Сотрудник</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="СотрудникКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="39"/>
-					<Events>
-						<Event name="OnChange">СотрудникПриИзменении</Event>
-						<Event name="StartChoice">СотрудникНачалоВыбора</Event>
-					</Events>
-				</InputField>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаВыборГода" id="65">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа выбор года</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа выбор года</v8:content>
-				</v8:item>
-			</ToolTip>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаВыборГодаРасширеннаяПодсказка" id="66"/>
-			<ChildItems>
-				<Button name="КнопкаГодНазад" id="73">
-					<Type>UsualButton</Type>
-					<Width>4</Width>
-					<CommandName>Form.Command.ГодНазад</CommandName>
+				<UsualGroup name="ГруппаКнопок" id="52">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&lt;</v8:content>
+							<v8:content>Группа кнопок</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="КнопкаГодНазадРасширеннаяПодсказка" id="74"/>
-				</Button>
-				<InputField name="ВыбранныйГод" id="69">
-					<DataPath>Объект.ВыбранныйГод</DataPath>
-					<ReadOnly>true</ReadOnly>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кнопок</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="53"/>
+					<ChildItems>
+						<Button name="КнопкаСохранить" id="45">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Сохранить</CommandName>
+							<ExtendedTooltip name="КнопкаСохранитьРасширеннаяПодсказка" id="46"/>
+						</Button>
+						<Button name="КнопкаЗакрыть" id="47">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Закрыть</CommandName>
+							<ExtendedTooltip name="КнопкаЗакрытьРасширеннаяПодсказка" id="48"/>
+						</Button>
+						<InputField name="КоличествоВыбранныхДат" id="100">
+							<DataPath>КоличествоВыбранныхДат</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоВыбранныхДатКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="КоличествоВыбранныхДатРасширеннаяПодсказка" id="102"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСотрудник" id="63">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Выбранный год</v8:content>
+							<v8:content>Группа сотрудник</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ВыбранныйГодКонтекстноеМеню" id="70"/>
-					<ExtendedTooltip name="ВыбранныйГодРасширеннаяПодсказка" id="71"/>
-				</InputField>
-				<Button name="КнопкаГодВперед" id="75">
-					<Type>UsualButton</Type>
-					<Width>4</Width>
-					<CommandName>Form.Command.ГодВперед</CommandName>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа сотрудник</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСотрудникРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<InputField name="Сотрудник" id="37">
+							<DataPath>Объект.Сотрудник</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СотрудникКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="39"/>
+							<Events>
+								<Event name="OnChange">СотрудникПриИзменении</Event>
+								<Event name="StartChoice">СотрудникНачалоВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаВыборГода" id="65">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>&gt;</v8:content>
+							<v8:content>Группа выбор года</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="КнопкаГодВпередРасширеннаяПодсказка" id="76"/>
-				</Button>
-			</ChildItems>
-		</UsualGroup>
-		<UsualGroup name="ГруппаКалендарь" id="30">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа календарь</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа календарь</v8:content>
-				</v8:item>
-			</ToolTip>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаКалендарьРасширеннаяПодсказка" id="31"/>
-			<ChildItems>
-				<CalendarField name="Календарь" id="32">
-					<DataPath>Календарь</DataPath>
-					<TitleLocation>None</TitleLocation>
-					<Width>6</Width>
-					<MaxWidth>4</MaxWidth>
-					<Height>39</Height>
-					<MaxHeight>3</MaxHeight>
-					<SelectionMode>Multiple</SelectionMode>
-					<WidthInMonths>4</WidthInMonths>
-					<HeightInMonths>3</HeightInMonths>
-					<ContextMenu name="КалендарьКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="КалендарьРасширеннаяПодсказка" id="34"/>
-					<Events>
-						<Event name="OnChange">КалендарьПриИзменении</Event>
-					</Events>
-				</CalendarField>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выбор года</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВыборГодаРасширеннаяПодсказка" id="66"/>
+					<ChildItems>
+						<Button name="КнопкаГодНазад" id="73">
+							<Type>UsualButton</Type>
+							<Width>4</Width>
+							<CommandName>Form.Command.ГодНазад</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КнопкаГодНазадРасширеннаяПодсказка" id="74"/>
+						</Button>
+						<InputField name="ВыбранныйГод" id="69">
+							<DataPath>Объект.ВыбранныйГод</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбранный год</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВыбранныйГодКонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="ВыбранныйГодРасширеннаяПодсказка" id="71"/>
+						</InputField>
+						<Button name="КнопкаГодВперед" id="75">
+							<Type>UsualButton</Type>
+							<Width>4</Width>
+							<CommandName>Form.Command.ГодВперед</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="КнопкаГодВпередРасширеннаяПодсказка" id="76"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКалендарь" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа календарь</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа календарь</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКалендарьРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<CalendarField name="Календарь" id="32">
+							<DataPath>Календарь</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Width>6</Width>
+							<MaxWidth>4</MaxWidth>
+							<Height>6</Height>
+							<MaxHeight>3</MaxHeight>
+							<SelectionMode>Multiple</SelectionMode>
+							<ShowCurrentDate>false</ShowCurrentDate>
+							<WidthInMonths>4</WidthInMonths>
+							<HeightInMonths>3</HeightInMonths>
+							<ContextMenu name="КалендарьКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="КалендарьРасширеннаяПодсказка" id="34"/>
+							<Events>
+								<Event name="OnChange">КалендарьПриИзменении</Event>
+							</Events>
+						</CalendarField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

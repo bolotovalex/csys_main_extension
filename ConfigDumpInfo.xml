@@ -125,7 +125,7 @@
 		<Metadata name="CommonPicture.СвернутьПравуюПанель" id="77987763-dbdb-4367-9458-fa476791fff1" configVersion="ad21e50682112a975a067442020a131a37d13e58"/>
 		<Metadata name="CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен" id="f186a5ff-c23c-4d34-a2fd-a55db8ec189d" configVersion="b99c05de5755eb02c135589b1025215b0f9fb080"/>
 		<Metadata name="CommonPicture.СтатусыСерийНоменклатуры" id="408154b5-8869-47f2-940e-fdbce4eb9288" configVersion="00a17719a9cbc1057934ec46309dd77113a4e74a"/>
-		<Metadata name="Configuration.ОсновноеРасширениеКомсис" id="90652509-816a-4551-8778-b895d4d26a26" configVersion="e1d4a24e9fc37d1e695156e57d9613f61853a106"/>
+		<Metadata name="Configuration.ОсновноеРасширениеКомсис" id="90652509-816a-4551-8778-b895d4d26a26" configVersion="79808adf11087f79f94aed6db832b5b0b217e511"/>
 		<Metadata name="Configuration.ОсновноеРасширениеКомсис.HomePageWorkArea" id="a5eff43c-03ab-4848-8a22-91531d5963eb.8" configVersion="921ab7aa93a943891538c47890ea3718cd7ac037"/>
 		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников" id="0eeee050-ccc3-4e6d-89df-7609ed24f40b" configVersion="e8140b9f021dd127245c377acb184b9b5d9eb85d">
 			<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Attribute.Сотрудник" id="55a8c74d-aa1c-4ef9-a994-90ebc953db41"/>
@@ -133,7 +133,7 @@
 			<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Attribute.ВыбранныйГод" id="db2ac504-93ed-4e3d-816a-b43ad60d83e9"/>
 		</Metadata>
 		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Form.Форма" id="a1840b5c-6a87-45b3-8c97-fcf3ef4e422b" configVersion="a4024c7b53b3728ef052e56c0bf5b6ac51c886b6"/>
-		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Form.Форма.Form" id="a1840b5c-6a87-45b3-8c97-fcf3ef4e422b.0" configVersion="bd9963fd6c9907f09e666bfa30bbecba95f35336"/>
+		<Metadata name="DataProcessor.csys1_ГрафикОтпусковСотрудников.Form.Форма.Form" id="a1840b5c-6a87-45b3-8c97-fcf3ef4e422b.0" configVersion="2789fe0a0979e76bde6d3e25d5275410ddf31806"/>
 		<Metadata name="DataProcessor.csys1_Отладка" id="26e5d134-e568-453f-b431-82b75a73e56e" configVersion="276efb13e350b1984cb87ca0e697d32b4ff651f0"/>
 		<Metadata name="DataProcessor.csys1_Отладка.Form.Форма" id="f3ee9f1f-6dc1-441d-83ff-b5747052db72" configVersion="7eb9fc94f831da6ff5a9304533dabbece226ad2d"/>
 		<Metadata name="DataProcessor.csys1_Отладка.Form.Форма.Form" id="f3ee9f1f-6dc1-441d-83ff-b5747052db72.0" configVersion="bd67b06e3e595080284cb3caf2a8dea2f5238c37"/>

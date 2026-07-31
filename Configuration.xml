@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.csys1_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ООО "АйТи Групп"</Vendor>
-			<Version>2026.07.02.1</Version>
+			<Version>2026.07.31.1</Version>
 			<Caption>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
